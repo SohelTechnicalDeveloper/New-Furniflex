@@ -1,0 +1,87 @@
+.footer{
+
+     width: 100%;
+     height: 100vh;
+     background: #fff;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+    cursor: pointer;
+}
+.footer-bar ul{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 13rem;
+      cursor: pointer;
+      gap: 3rem;
+      font-size: 20px;
+
+}
+.footer-bar a{
+     
+     text-decoration: none;
+     color: #264D51;
+     font-weight: 500;
+     transition: all 0.8s ease-in-out;
+
+}
+.footer-bar a:hover{
+
+    color: #264d51a5;
+}
+.footer-icon ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15rem;
+    cursor: pointer;
+    gap: 3rem;
+    font-size: 35px;
+}
+.footer-icon a{
+
+      color: #000;
+}
+.footer-icon .instagram a :hover{
+    color: #FD2B21;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-icon .facebook a :hover{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-icon .linkedin a :hover{
+    color: #0077B5;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-icon .whatsapp a :hover{
+    color: #25D366;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-icon .pinterest a :hover{
+    color: #d92e7f;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-content{
+
+    position: relative;
+    top: 20rem;
+    cursor: pointer;
+    gap: 3rem;
+    font-size: 18px;
+}
